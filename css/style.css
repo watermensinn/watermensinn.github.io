@@ -2077,7 +2077,7 @@ height:47px;
 footer {
 	background: #f8f8f8 url(../images/footer-bg.png) no-repeat bottom right;
 	background-size: 80%;
-	padding: 100px 0 125px;
+	padding: 100px 0 15px;
 	border-top: 1px solid #eee;
 }
 
