@@ -3441,9 +3441,13 @@ margin-left:85px;
 
 
 #one-res .parallax-bg5 {
-	background: url(../images/onepage/3/5.jpg) no-repeat center center fixed !important;
+	background: url(https://i.imgur.com/zjQ0TTR.jpg) no-repeat center center fixed !important;
 	position: relative;
 	background-size: cover !important;
+}
+
+.someDivOverlay {
+   background: rgba(70, 72, 82, 1)
 }
 
 #one-res .parallax-bg6 {
