@@ -3446,6 +3446,12 @@ margin-left:85px;
 	background-size: cover !important;
 }
 
+#one-res .parallax-bg5a {
+	background: url(https://i.imgur.com/fM0t2kl.jpg) no-repeat center center fixed !important;
+	position: relative;
+	background-size: cover !important;
+}
+
 .someDivOverlay {
    background: rgba(70, 72, 82, 1)
 }
@@ -3458,6 +3464,12 @@ margin-left:85px;
 
 #one-res .parallax-bg1 {
 	background: url(../images/onepage/3/9.jpg) no-repeat center center fixed !important;
+	position: relative;
+	background-size: cover !important;
+}
+
+#one-res .parallax-bg1a {
+	background: url(https://i.imgur.com/mORq8h1.jpg) no-repeat center center fixed !important;
 	position: relative;
 	background-size: cover !important;
 }
@@ -7648,7 +7660,9 @@ ul.tld_list .text {
 	    position: relative;
 	}
 	.navbar-brand {
-	    margin-top: 14px;
+	    margin-top: 8px;
+        margin-bottom:0px;
+        margin-left:8px;
 	}
 	.navbar-toggle {
 	    margin-top: 10px;
