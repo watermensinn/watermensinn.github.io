@@ -688,27 +688,28 @@ document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/tru
 			<h4 class="uppercase no-margin">Contact Us</h4>
 			<div class="space20"></div>
 			<p>We would be glad to have feedback from you. Drop us a line, whether it is a comment, a question or just a hello. You can use either the form below or the contact details on the right.</p>
-			<form class="home-contact-form">
+			<form class="home-contact-form" action="https://formspree.io/contact@watermensinn.com"
+      method="POST">
 				<div class="row">
 					<div class="col-md-6">
 						<div class="input-wrap">
-							<input class="i-field form-control" placeholder="Name (required)" type="text">
+							<input class="i-field form-control" placeholder="Name (required)" type="text" name="name">
 							<i class="fa fa-user"></i>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="input-wrap">
-							<input class="i-field form-control" placeholder="Email (required)" type="text">
+							<input class="i-field form-control" placeholder="Email (required)" type="text" name="_replyto">
 							<i class="fa fa-envelope"></i>
 						</div>
 					</div>
 				</div>
 				<div class="input-wrap">
-					<input class="i-field form-control" placeholder="Subject" type="text">
+					<input class="i-field form-control" placeholder="Subject" type="text" name="_subject">
 					<i class="fa fa-pencil"></i>
 				</div>
 				<div class="textarea-wrap">
-					<textarea class="i-field form-control" placeholder="Message"></textarea>
+					<textarea class="i-field form-control" placeholder="Message" name="message"></textarea>
 					<i class="fa fa-pencil"></i>
 				</div>
 				<input class="button" value="Send it" type="submit">
@@ -750,11 +751,11 @@ TrustLogo("https://watermensinn.com/images/comodo_secure_seal_100x85_transp.png"
 		<div class="container">
 			<div class="row">
 				<div class="col-md-7">
-					<p>&copy; Copyright 2016. Watermen's Inn. Designed By Specx.</p>
+                    <p>&copy; Copyright 2016. Watermen's Inn. Designed By <a href="http://jacktawes.tk/"><font color="#666">Specx</font></a>.</p>
 				</div>
 				<div class="col-md-5">
 					<div class="f-social pull-right">
-						Check us out on <a class="fa fa-facebook" href="https://www.facebook.com/Watermens-Inn-105829659438991/"></a>
+                        <font color="#666">Check us out on</font> <a class="fa fa-facebook" href="https://www.facebook.com/Watermens-Inn-105829659438991/"></a>
 				</div>
 				</div>
 			</div>
