@@ -3,8 +3,8 @@ google.maps.event.addDomListener(window, 'load', init);
 
 function init() {
 	var mapOptions = {
-		zoom: 11,
-		center: new google.maps.LatLng(40.6700, -73.9400), // New York
+		zoom: 17,
+		center: new google.maps.LatLng(37.9790307, -75.8604238), // New York
 		styles: [{
 			"featureType": "administrative.land_parcel",
 			"elementType": "all",
@@ -92,8 +92,8 @@ function init() {
 	var map = new google.maps.Map(mapElement, mapOptions);
 
 	var marker = new google.maps.Marker({
-		position: new google.maps.LatLng(40.6700, -73.9400),
+		position: new google.maps.LatLng(37.9790307, -75.8604238),
 		map: map,
-		title: 'Snazzy!'
+		title: "Watermen's Inn Restaurant"
 	});
 }
